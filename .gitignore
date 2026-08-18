@@ -1,0 +1,33 @@
+# Environment files
+.env
+.env.local
+.env.production
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# SQLite database (don't commit data)
+*.db
+*.sqlite3
+
+# Node
+node_modules/
+.next/
+.turbo/
+
+# Docker
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Traefik dynamic config (generated at runtime)
+traefik/dynamic/*.yml
+
+# Temp repos (generated at runtime)
+/tmp/portscale-repos/
